@@ -5,8 +5,22 @@
  From the above definitions it is worthwhile to note that the two are all computers and what distinguishes one from another is the role it plays. In essence the server and the client are all computers with all the necessary features of a typical computer: RAM, HDD, System bus, an installed operating system and application programs to mention but a few. 
 
 
-The client and the server both communicate through a network which is the medium that facilitates their interaction. In this lesson we will ignore the network aspect.  
-![Client Server Communication Via Network](./Client-server-Architecture-network.png)
+The client and the server both communicate through a network which is the medium that facilitates their interaction. In this lesson we will ignore the network aspect. 
+
+![Client Server Communication Via Network](./Client-server-Architecture-network.png)    
+
+##  The Client Server Architecture 
+> The client Server Architecture is a computing formation in which a computer (client) or computers (clients)  rely on another computer (server) for services   
+    - wikipedia     
+
+The services may include:   
+- The client requesting for information from the server i.e Retrieving a webpage, Downloading a file    
+- Request for processing of data - validation during creation of an account
+- Request to send a message t another client. i.e email
+The above mentioned are just a few instances where the servers services. 
+
+## Comparing Clients and Servers. 
+![Block Diagram Comparison- (server and Client)](./Block-diagram-comparison.png) 
 
 
 
