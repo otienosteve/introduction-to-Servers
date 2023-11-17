@@ -1,0 +1,6 @@
+[CGI Versus FastCGI versus WSGI](https://www.sobyte.net/post/2021-11/cgi-fastcgi-wsgi/)     
+[PEP-3333 - WSGI official docs](https://peps.python.org/pep-3333/#specification-details)    
+[How CGI Works](https://computer.howstuffworks.com/cgi.htm)     
+[Youtube (PowerCert Animated Videos)- What is A server](https://www.youtube.com/watch?v=UjCDWCeHCzY)    
+[What is WSGI -wsgi.readthedocs.io](https://wsgi.readthedocs.io/en/latest/what.html)    
+[WSGI - introduction](https://wsgi.tutorial.codepoint.net/intro)    
