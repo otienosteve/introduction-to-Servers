@@ -1,32 +1,33 @@
 # Exploring the World of Servers
 ![Client Server Architecture Illustration](./Client_server_Architecture.png)   
 
- A server is a computer that provides services to the clients.  
- A client is a computer that requests for services from the client.  
- From the above definitions it is worthwhile to note that the two are all computers and what distinguishes one from another is the role it plays. In essence the server and the client are all computers with all the necessary features of a typical computer: RAM, HDD, System bus, an installed operating system and application programs to mention but a few. 
+ A **server** is a computer that provides services to clients.
+ A **client** is a computer that requests services from the client.  
+ From the above definitions, it is worthwhile to note that the two are all computers, and what distinguishes one from another is the role it plays. In essence, the server and the client are all computers with all the necessary features of a typical computer: RAM, HDD, system bus, an installed operating system, and application programs, to mention but a few. 
 
 
-The client and the server both communicate through a network which is the medium that facilitates their interaction. In this and forthcoming lesson we will ignore the network aspect.  
+The client and the server both communicate through a network, which is the medium that facilitates their interaction. In this and forthcoming lessons, we will ignore the network aspect.  
 ![Client Server Communication Via Network](./Client-server-Architecture-network.png)
 
 ##  The Client Server Architecture 
-> The client Server Architecture is a computing formation in which a computer (client) or computers (clients)  rely on another computer (server) for services   
+> The Client-Server Architecture is a computing formation in which a computer (client) or computers (clients)  rely on another computer (server) for services   
     - wikipedia     
 
 The services may include:   
-- The client requesting for information from the server i.e Retrieving a webpage, Downloading a file    
+- The client requesting for information from the server, i.e., retrieving a webpage or downloading a file    
 - Request for processing of data - validation during creation of an account
-- Request to send a message t another client. i.e email
-The above mentioned are just a few instances where the servers services. 
+- Request to send a message to another client. i.e., email
+    
+The above-mentioned are just a few instances where servers provide services. 
 
-## Comparing Clients and Servers. 
+## Comparing Clients and Servers
 ![Block Diagram Comparison- (server and Client)](./Client-Server-Comparison.png)    
-From the diagram above you can clearly see tha client and the server have a few similarities in architecture from Hardware up to the application layer. 
+From the diagram above, you can clearly see that the client and the server have a few similarities in architecture, from hardware up to the application layer. 
 
-From the server side we have left a question mark on top of the application layer. This is where the server side applications we develop and deploy will live.     
-The server and the client though being similar in architecture should have a few differences owing to the fact that the play different roles in the Client Server architecture.     
+From the server side, we have left a question mark on top of the application layer. This is where the server-side applications we develop and deploy will live.     
+The server and the client, though similar in architecture, should have a few differences owing to the fact that they play different roles in the client-server architecture.     
 
-A server as it's meant to provide services should beat the client in a few computing metrics. listed below are some of them.    
+A server, as it's meant to provide services, should beat the client in a few computing metrics. Listed below are some of them:    
 - High Performance Computing (optimizations)
 - Reliability and fault tolerance
 - Security
@@ -35,12 +36,12 @@ A server as it's meant to provide services should beat the client in a few compu
 - Speed 
 
 ### Essentially, What is a Server?
-On the Client side the term program/software is usually used to refer to any application  that is installed on top of the operating system, While the operating System is usually distinguishable as the layer that sits between the hardware and the application software. 
-On the server side the term Server is usually used to refer to everything from the Hardware layer up to the deployed application layer.  
+On the **client side**, the term **program** or **software** is usually used to refer to any application that is installed on top of the operating system, while the operating system is usually distinguishable as the layer that sits between the hardware and the application software.     
+On the **server side**, the term **server** is usually used to refer to everything from the hardware layer up to the deployed application layer.  
 ![Every Component as a server](./Everything-is-a-Server.png)    
-This usually brings a lot of confusion especially to individuals who are new to the server side. A way of situating whatever aspect of the server is being referred to is to use the current context and the examples being used as a basis.    
+This usually causes a lot of confusion, especially for individuals who are new to the server side. A way of situating whatever aspect of the server is being referred to is to use the current context and the examples being used as a basis.    
 
-For our learning we will be majorly focusing on the deployed app, although we will also cover the server application side in the next lesson so as to have a better picture of the interaction between the two. 
+For our learning, we will be primarily focusing on the deployed app, although we will also cover the server application side in the next lesson so as to have a better picture of the interaction between the two. 
 
 
 ### Sources
